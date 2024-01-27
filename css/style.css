@@ -56,7 +56,7 @@ body {
 
 /* Container Styles */
 .container {
-  width: min(100% - 3rem, 1320px);
+  width: min(100% - 3rem, 1200px);
   margin-inline: auto;
 }
 
@@ -123,7 +123,7 @@ img {
 header {
   position: relative;
   background-color: var(--clr-white);
-  padding: 2.1rem 1rem;
+  padding: 2rem 1rem;
   z-index: 99;
 }
 
@@ -326,24 +326,24 @@ header .container .btn {
 /*Responsive Hero Section*/
 @media (min-width: 992px) {
   .hero {
-    min-height: calc(100vh - 6.2rem);
+    min-height: calc(90vh - 6rem);
   }
 
   .hero .wrapper {
     display: flex;
     align-items: center;
-    min-height: calc(100vh - 6.2rem);
-    width: min(100% - 3rem, 1320px);
+    min-height: calc(90vh - 6rem);
+    width: min(100% - 3rem, 1200px);
     margin-inline: auto;
   }
 
   .hero .hero-img {
     position: absolute;
-    top: -14%;
+    top: -15%;
     right: -40%;
     background: url(../images/bg-intro-desktop.svg) no-repeat;
     width: 100%;
-    height: 114%;
+    height: 115%;
   }
 
   .hero .hero-img::after {
@@ -361,6 +361,10 @@ header .container .btn {
     text-align: start;
     width: 40%;
     margin-inline: unset;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 5rem;
   }
 }
 
