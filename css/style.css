@@ -56,7 +56,7 @@ body {
 
 /* Container Styles */
 .container {
-  width: min(100% - 3rem, 1200px);
+  width: min(100% - 3rem, 1110px);
   margin-inline: auto;
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 /* Responsive Paragraph Styles */
-@media (min-width: 1200px) {
+@media (min-width: 1110px) {
   p {
     font-size: var(--fs-medium);
   }
@@ -388,7 +388,7 @@ header .container .btn {
 
 .about .container .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(26rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
   justify-content: space-between;
   gap: 3rem;
   margin-top: 5rem;
@@ -433,7 +433,7 @@ header .container .btn {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1120px) {
   .about .container .row .box {
     align-items: flex-start;
     text-align: start;
@@ -461,7 +461,7 @@ header .container .btn {
 
 .articles .container .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(26rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
   gap: 3rem;
 }
 
